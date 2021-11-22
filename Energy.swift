@@ -27,12 +27,12 @@ guard let massString = readLine(), !massString.isEmpty else {
 // Makes sure input can be converted to Double.
 if let mass = Double(massString) {
 
-    // Calculates E = mc^2 to find the amount of energy produced.
+    // Calculates E = mc² to find the amount of energy produced.
     let energy = mass * pow(speedOfLight, 2)
 
-    print("\n\(mass)kg of mass would produce \(energy)J of energy")
+    print("\n\(mass) kg of mass would produce \(energy) J of energy")
 } else {
     print("That's not a number!")
 }
 
-print("\nThanks for using the program!")
+print("\nDone.")
